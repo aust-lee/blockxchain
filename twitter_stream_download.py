@@ -1,10 +1,10 @@
 #To run this code, first edit config.py with your configuration, then:
 #
 # mkdir data
-# python twitter_stream_download.py -q apple -d data
+# python twitter_stream_download.py -q BTC -d data
 # 
-# It will produce the list of tweets for the query "apple" 
-# in the file data/stream_apple.json
+# It will produce the list of tweets for the query "BTC" 
+# in the file data/stream_BTC.json
 
 import tweepy
 from tweepy import Stream
